@@ -4,7 +4,7 @@ import threading
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # Fixed the case to AF_INET
 client.connect(('127.0.0.1', 55555))
 
-nickname = input("Choose a nickname: ")  # Add a way to set a nickname
+nickname = input("Choose a Name you want to be called!!!!!: ")  # Add a way to set a nickname
 
 def receive():
     while True:
